@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <Nav setPage={setPage} />
+      <Nav  curPage={curPage} setPage={setPage} />
 
       { curPage === 0 && <About /> }
       { curPage === 1 && <Work /> }
