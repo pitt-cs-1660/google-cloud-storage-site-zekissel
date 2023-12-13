@@ -43,4 +43,3 @@ jobs:
           path: 'dist' # UPDATE THIS TO YOUR BUILD/FILES DIRECTORY
           destination: 'cs1660-project-bucket' # UPDATE THIS TO YOUR BUCKET NAME
           parent: false
-
