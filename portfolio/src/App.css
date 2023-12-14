@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav {
+  min-width: 100%;
+  min-height: 5rem;
+}
+
+nav > button {
+  background-color: #454B66;
+  border-radius: 6%;
+  font-size: large;
+
+  margin: 1%;
+  min-width: 5rem;
+  min-height: 2rem;
+}
+
+h2 {
+  text-align: left;
+  text-decoration: underline;
+}
+
+h3 {
+  text-align: left;
+}
+
+.exp {
+  display: flex;
+}
+
+.school {
+  padding: 1%;
+}
+
+.work {
+  padding: 1%;
+}
+
+li {
+  background-color: #454B66;
+  padding: .5% 2%;
+}
+
+.projects {
+  display: flex;
+}
+
+.projects > li {
+  margin: 1%;
+}
